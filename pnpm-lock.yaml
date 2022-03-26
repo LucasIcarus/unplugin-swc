@@ -11,14 +11,14 @@ specifiers:
   path-exists: ^5.0.0
   prettier: 2.5.1
   rollup: ^2.60.0
-  tsup: 5.11.9
+  tsup: 5.12.1
   typescript: 4.5.4
   unplugin: ^0.3.0
   uvu: ^0.5.2
   vite: ^2.6.14
 
 dependencies:
-  unplugin: 0.3.0_860dd7b723ded648c139514b4e8f5922
+  unplugin: 0.3.0_64478a4c84ae07405dfe873711e54e2d
 
 devDependencies:
   '@egoist/prettier-config': 1.0.0
@@ -31,7 +31,7 @@ devDependencies:
   path-exists: 5.0.0
   prettier: 2.5.1
   rollup: 2.60.0
-  tsup: 5.11.9_typescript@4.5.4
+  tsup: 5.12.1_typescript@4.5.4
   typescript: 4.5.4
   uvu: 0.5.2
   vite: 2.6.14
@@ -278,12 +278,14 @@ packages:
       fill-range: 7.0.1
     dev: true
 
-  /bundle-require/2.1.8_esbuild@0.14.8:
-    resolution: {integrity: sha512-oOEg3A0hy/YzvNWNowtKD0pmhZKseOFweCbgyMqTIih4gRY1nJWsvrOCT27L9NbIyL5jMjTFrAUpGxxpW68Puw==}
+  /bundle-require/3.0.4_esbuild@0.14.9:
+    resolution: {integrity: sha512-VXG6epB1yrLAvWVQpl92qF347/UXmncQj7J3U8kZEbdVZ1ZkQyr4hYeL/9RvcE8vVVdp53dY78Fd/3pqfRqI1A==}
+    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     peerDependencies:
       esbuild: '>=0.13'
     dependencies:
-      esbuild: 0.14.8
+      esbuild: 0.14.9
+      load-tsconfig: 0.2.3
     dev: true
 
   /cac/6.7.12:
@@ -956,6 +958,11 @@ packages:
     resolution: {integrity: sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=}
     dev: true
 
+  /load-tsconfig/0.2.3:
+    resolution: {integrity: sha512-iyT2MXws+dc2Wi6o3grCFtGXpeMvHmJqS27sMPGtV2eUu4PeFnG+33I8BlFK1t1NWMjOpcx9bridn5yxLDX2gQ==}
+    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
+    dev: true
+
   /merge-stream/2.0.0:
     resolution: {integrity: sha512-abv/qOcuPfk3URPfDzmZU1LKmuw8kT+0nIHvKrKgFrwifol/doWcdA4ZqsWQ8ENrFKkd67Mfpo/LovbIUsbt3w==}
     dev: true
@@ -1266,8 +1273,8 @@ packages:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
     dev: true
 
-  /tsup/5.11.9_typescript@4.5.4:
-    resolution: {integrity: sha512-APFcd9qKblMVO35O5OyIcfa4lwBrVNinwtifUojO78I6j0aDhS4fQ06gq6vF1b/+Z83pYDWNb0R2fmO9PX3IVQ==}
+  /tsup/5.12.1_typescript@4.5.4:
+    resolution: {integrity: sha512-vI7E4T6+6n5guQ9UKUOkQmzd1n4V9abGK71lbnzJMLJspbkNby5zlwWvgvHafLdYCb1WXpjFuqqmNLjBA0Wz3g==}
     hasBin: true
     peerDependencies:
       typescript: ^4.1.0
@@ -1275,11 +1282,11 @@ packages:
       typescript:
         optional: true
     dependencies:
-      bundle-require: 2.1.8_esbuild@0.14.8
+      bundle-require: 3.0.4_esbuild@0.14.9
       cac: 6.7.12
       chokidar: 3.5.1
       debug: 4.3.1
-      esbuild: 0.14.8
+      esbuild: 0.14.9
       execa: 5.0.0
       globby: 11.0.4
       joycon: 3.0.1
@@ -1300,7 +1307,7 @@ packages:
     hasBin: true
     dev: true
 
-  /unplugin/0.3.0_860dd7b723ded648c139514b4e8f5922:
+  /unplugin/0.3.0_64478a4c84ae07405dfe873711e54e2d:
     resolution: {integrity: sha512-9yLlOo+XC4NdIRgpkDSHOAHkQDq2x4mbuVNO/eKVa3C8WTn5wWGfzEFfRJFL8euqnX3Gf7hEur0AhXxy+WSwkg==}
     peerDependencies:
       esbuild: '>=0.13'
@@ -1317,7 +1324,7 @@ packages:
       webpack:
         optional: true
     dependencies:
-      esbuild: 0.14.8
+      esbuild: 0.14.9
       rollup: 2.60.0
       vite: 2.6.14
       webpack-virtual-modules: 0.4.3
