@@ -9,7 +9,7 @@ specifiers:
   joycon: ^3.0.1
   jsonc-parser: ^3.0.0
   path-exists: ^5.0.0
-  prettier: 2.5.1
+  prettier: 2.6.1
   rollup: ^2.60.0
   tsup: 5.11.9
   typescript: 4.5.4
@@ -18,7 +18,7 @@ specifiers:
   vite: ^2.6.14
 
 dependencies:
-  unplugin: 0.3.0_860dd7b723ded648c139514b4e8f5922
+  unplugin: 0.3.0_64478a4c84ae07405dfe873711e54e2d
 
 devDependencies:
   '@egoist/prettier-config': 1.0.0
@@ -29,7 +29,7 @@ devDependencies:
   joycon: 3.0.1
   jsonc-parser: 3.0.0
   path-exists: 5.0.0
-  prettier: 2.5.1
+  prettier: 2.6.1
   rollup: 2.60.0
   tsup: 5.11.9_typescript@4.5.4
   typescript: 4.5.4
@@ -278,12 +278,12 @@ packages:
       fill-range: 7.0.1
     dev: true
 
-  /bundle-require/2.1.8_esbuild@0.14.8:
+  /bundle-require/2.1.8_esbuild@0.14.9:
     resolution: {integrity: sha512-oOEg3A0hy/YzvNWNowtKD0pmhZKseOFweCbgyMqTIih4gRY1nJWsvrOCT27L9NbIyL5jMjTFrAUpGxxpW68Puw==}
     peerDependencies:
       esbuild: '>=0.13'
     dependencies:
-      esbuild: 0.14.8
+      esbuild: 0.14.9
     dev: true
 
   /cac/6.7.12:
@@ -1116,8 +1116,8 @@ packages:
       source-map-js: 0.6.2
     dev: true
 
-  /prettier/2.5.1:
-    resolution: {integrity: sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==}
+  /prettier/2.6.1:
+    resolution: {integrity: sha512-8UVbTBYGwN37Bs9LERmxCPjdvPxlEowx2urIL6urHzdb3SDq4B/Z6xLFCblrSnE4iKWcS6ziJ3aOYrc1kz/E2A==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
@@ -1275,11 +1275,11 @@ packages:
       typescript:
         optional: true
     dependencies:
-      bundle-require: 2.1.8_esbuild@0.14.8
+      bundle-require: 2.1.8_esbuild@0.14.9
       cac: 6.7.12
       chokidar: 3.5.1
       debug: 4.3.1
-      esbuild: 0.14.8
+      esbuild: 0.14.9
       execa: 5.0.0
       globby: 11.0.4
       joycon: 3.0.1
@@ -1300,7 +1300,7 @@ packages:
     hasBin: true
     dev: true
 
-  /unplugin/0.3.0_860dd7b723ded648c139514b4e8f5922:
+  /unplugin/0.3.0_64478a4c84ae07405dfe873711e54e2d:
     resolution: {integrity: sha512-9yLlOo+XC4NdIRgpkDSHOAHkQDq2x4mbuVNO/eKVa3C8WTn5wWGfzEFfRJFL8euqnX3Gf7hEur0AhXxy+WSwkg==}
     peerDependencies:
       esbuild: '>=0.13'
@@ -1317,7 +1317,7 @@ packages:
       webpack:
         optional: true
     dependencies:
-      esbuild: 0.14.8
+      esbuild: 0.14.9
       rollup: 2.60.0
       vite: 2.6.14
       webpack-virtual-modules: 0.4.3
