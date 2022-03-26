@@ -12,13 +12,13 @@ specifiers:
   prettier: 2.5.1
   rollup: ^2.60.0
   tsup: 5.11.9
-  typescript: 4.5.4
+  typescript: 4.6.3
   unplugin: ^0.3.0
   uvu: ^0.5.2
   vite: ^2.6.14
 
 dependencies:
-  unplugin: 0.3.0_860dd7b723ded648c139514b4e8f5922
+  unplugin: 0.3.0_64478a4c84ae07405dfe873711e54e2d
 
 devDependencies:
   '@egoist/prettier-config': 1.0.0
@@ -31,8 +31,8 @@ devDependencies:
   path-exists: 5.0.0
   prettier: 2.5.1
   rollup: 2.60.0
-  tsup: 5.11.9_typescript@4.5.4
-  typescript: 4.5.4
+  tsup: 5.11.9_typescript@4.6.3
+  typescript: 4.6.3
   uvu: 0.5.2
   vite: 2.6.14
 
@@ -278,12 +278,12 @@ packages:
       fill-range: 7.0.1
     dev: true
 
-  /bundle-require/2.1.8_esbuild@0.14.8:
+  /bundle-require/2.1.8_esbuild@0.14.9:
     resolution: {integrity: sha512-oOEg3A0hy/YzvNWNowtKD0pmhZKseOFweCbgyMqTIih4gRY1nJWsvrOCT27L9NbIyL5jMjTFrAUpGxxpW68Puw==}
     peerDependencies:
       esbuild: '>=0.13'
     dependencies:
-      esbuild: 0.14.8
+      esbuild: 0.14.9
     dev: true
 
   /cac/6.7.12:
@@ -1266,7 +1266,7 @@ packages:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
     dev: true
 
-  /tsup/5.11.9_typescript@4.5.4:
+  /tsup/5.11.9_typescript@4.6.3:
     resolution: {integrity: sha512-APFcd9qKblMVO35O5OyIcfa4lwBrVNinwtifUojO78I6j0aDhS4fQ06gq6vF1b/+Z83pYDWNb0R2fmO9PX3IVQ==}
     hasBin: true
     peerDependencies:
@@ -1275,11 +1275,11 @@ packages:
       typescript:
         optional: true
     dependencies:
-      bundle-require: 2.1.8_esbuild@0.14.8
+      bundle-require: 2.1.8_esbuild@0.14.9
       cac: 6.7.12
       chokidar: 3.5.1
       debug: 4.3.1
-      esbuild: 0.14.8
+      esbuild: 0.14.9
       execa: 5.0.0
       globby: 11.0.4
       joycon: 3.0.1
@@ -1289,18 +1289,18 @@ packages:
       source-map: 0.7.3
       sucrase: 3.20.3
       tree-kill: 1.2.2
-      typescript: 4.5.4
+      typescript: 4.6.3
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /typescript/4.5.4:
-    resolution: {integrity: sha512-VgYs2A2QIRuGphtzFV7aQJduJ2gyfTljngLzjpfW9FoYZF6xuw1W0vW9ghCKLfcWrCFxK81CSGRAvS1pn4fIUg==}
+  /typescript/4.6.3:
+    resolution: {integrity: sha512-yNIatDa5iaofVozS/uQJEl3JRWLKKGJKh6Yaiv0GLGSuhpFJe7P3SbHZ8/yjAHRQwKRoA6YZqlfjXWmVzoVSMw==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
 
-  /unplugin/0.3.0_860dd7b723ded648c139514b4e8f5922:
+  /unplugin/0.3.0_64478a4c84ae07405dfe873711e54e2d:
     resolution: {integrity: sha512-9yLlOo+XC4NdIRgpkDSHOAHkQDq2x4mbuVNO/eKVa3C8WTn5wWGfzEFfRJFL8euqnX3Gf7hEur0AhXxy+WSwkg==}
     peerDependencies:
       esbuild: '>=0.13'
@@ -1317,7 +1317,7 @@ packages:
       webpack:
         optional: true
     dependencies:
-      esbuild: 0.14.8
+      esbuild: 0.14.9
       rollup: 2.60.0
       vite: 2.6.14
       webpack-virtual-modules: 0.4.3
